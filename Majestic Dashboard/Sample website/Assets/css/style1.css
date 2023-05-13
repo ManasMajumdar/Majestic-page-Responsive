@@ -1,0 +1,75 @@
+body {
+    background-color: #d9e9e9f3 !important;
+    font-size: 12px !important;
+
+}
+
+.tab-content div {
+    height: 100%;
+    width: 100%;
+}
+
+.tab-content .card {
+    padding: 12px;
+    border-radius: 0;
+    border: 1px solid #f3f3f3;
+}
+
+.fa-3x {
+    font-size: 2em !important;
+}
+
+.fa-calendar-check {
+    color: rgb(13, 110, 253);
+}
+
+.fa-dollar-sign {
+    color: rgb(220, 53, 69);
+}
+
+.fa-eye {
+    color: green;
+}
+
+.fa-download {
+    color: rgb(255, 193, 7);
+}
+
+.fa-flag {
+    color: rgb(220, 53, 69);
+}
+
+
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+
+
+@media (max-width:768px){
+    .tab-pane{
+        display: grid !important;
+        grid-template: "a a a" !important;
+        justify-content: start !important;
+    }
+  
+}
+
+@media (max-width:425px){
+    .tab-pane{
+        display: grid !important;
+        grid-template: "a a" !important;
+        justify-content: start !important;
+    }
+
+}
